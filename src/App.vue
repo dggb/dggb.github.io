@@ -2,22 +2,22 @@
   <div id="particles-js">
     <div class="header">
       <h1>
-        <span class="site-title">ADITYA VIKRAM SINGH</span>
-        <span class="site-description">Programmer • Web Developer • Graphic Designer</span>
+        <span class="site-title">프론트엔드 개발자 포트폴리오</span>
+        <span class="site-description">- 박경호 -</span>
       </h1>
       <div class="header-icons">
-        <a aria-label="My LinkedIn Profile" target="_blank" href="https://www.linkedin.com/in/avs1508/">
+        <!-- <a aria-label="My LinkedIn Profile" target="_blank" href="https://www.linkedin.com/in/avs1508/">
           <i class="icon fa fa-linkedin" aria-hidden="true"></i>
-        </a>
-        <a aria-label="My Github Profile" target="_blank" href="https://github.com/AVS1508">
+        </a> -->
+        <a aria-label="My Github Profile" target="_blank" href="https://github.com/dggb">
           <i class="icon fa fa-github-alt" aria-hidden="true"></i>
         </a>
-        <a aria-label="My Résumé" target="_blank" href="https://www.adityavsingh.com/resume.html">
+        <!-- <a aria-label="My Résumé" target="_blank" href="https://www.adityavsingh.com/resume.html">
           <i class="icon fa fa fa-file-pdf-o" aria-hidden="true"></i>
         </a>
         <a aria-label="Send Email" href="mailto:avsingh@umass.edu" target="_blank"
           ><i class="icon fa fa-envelope"></i
-        ></a>
+        ></a> -->
       </div>
       <div class="header-links">
         <a class="link" href="#about" data-scroll>About Me</a>
@@ -26,40 +26,45 @@
     </div>
     <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
   </div>
-  
-  <section id="about">
-      <div class="user-details">
-        <h1>My Story</h1>
-        <picture>
-          <source
-            type="image/webp"
-            srcset="../public/assets/img/webp/Professional-Picture-Me.webp"
-            alt="Professional Me"
-            width="20%"
-            style="border-radius: 50%"
-          />
-          <img
-            src="../public/assets/img/jpg/Professional-Picture-Me.jpg"
-            alt="Professional Me"
-            width="20%"
-            style="border-radius: 50%"
-          />
-        </picture>
-        <p>
-          I am a junior in the College of Information and Computer Sciences at the University of Massachusetts Amherst,
-          pursuing an undergraduate degree. I am majoring in Computer Science, with intent to double major in
-          Mathematics with Statistics and Data Science concentration. I'm involved as a Software Developer for BUILD
-          UMass, where I use my software engineering skills for pro-bono app/web development and tech consulting for the
-          Amherst community. I also serve as a Designer for the HackUMass Organizing Team, responsible for graphics
-          design and production for the annual hackathon. I am interested in exploring the fields of Software
-          Engineering, Data Science, and Machine Learning, and I am open to opportunities for the same.
-        </p>
-      </div>
-  </section>
+  <div style="background-color:white">
+    <section id="about">
+        <div class="user-details">
+          <div class="section_table_style">
+            <div class="section_title_style" style="color:#000000;">ABOUT ME</div>
+            
+            <a href="#about">
+              <div class="link_image">
+              <img src="../public/assets/img/png/link.png" style="width: 100%;">
+            </div>
+            </a>
+          </div>
+          <picture>
+            <img
+              src="../public/assets/img/jpg/myImag.jpg"
+              alt="Professional Me"
+              width="20%"
+              style="border-radius: 50%;border: 7px solid #fff;"
+            />
+          </picture>
+          <p>
+            뭐 임마
+          </p>
+        </div>
+    </section>
+  </div>
 
-  <section id="projects">
+  <div style="background-color:#f5f5f5">
+    <section id="projects">
       <div class="user-details">
-        <h1>Featured Projects</h1>
+        <div class="section_table_style">
+          <div class="section_title_style" style="color:#000000;">PROJECTS</div>
+          
+          <a href="#projects">
+            <div class="link_image">
+            <img src="../public/assets/img/png/link.png" style="width: 100%;">
+          </div>
+          </a>
+        </div>
       </div>
 
       <div class="user-projects">
@@ -196,9 +201,9 @@
         </div>
       </div>
     </section>
-
+  </div>
     <footer class="footer">
-      <p>&copy; ?? 2023</p>
+      <p>&copy; 2023. Park Kyung Ho. All rights reserved.</p>
     </footer>
 </template>
 
