@@ -5122,10 +5122,17 @@ a img {
     line-height: 1.5;
 }
 
+@media (max-width: 600px) {
+    .section_title_style {
+        font-size: 2rem;
+    }
+}
+
 .link_image {
     position: absolute;
     top: 50%;
-    left: -3rem;
+    left: -2rem;
+    margin-right: 5rem;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -5133,4 +5140,11 @@ a img {
     height: 2rem;
     opacity: .5;
     cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .link_image {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
 }

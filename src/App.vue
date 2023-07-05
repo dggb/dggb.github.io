@@ -32,7 +32,7 @@
           <div class="section_table_style">
             <div class="section_title_style" style="color:#000000;">ABOUT ME</div>
             
-            <a href="#about">
+            <a href="#about" data-scroll>
               <div class="link_image">
               <img src="../public/assets/img/png/link.png" style="width: 100%;">
             </div>
@@ -59,7 +59,7 @@
         <div class="section_table_style">
           <div class="section_title_style" style="color:#000000;">PROJECTS</div>
           
-          <a href="#projects">
+          <a href="#projects" data-scroll>
             <div class="link_image">
             <img src="../public/assets/img/png/link.png" style="width: 100%;">
           </div>
@@ -202,9 +202,10 @@
       </div>
     </section>
   </div>
-    <footer class="footer">
-      <p>&copy; 2023. Park Kyung Ho. All rights reserved.</p>
-    </footer>
+
+  <footer class="footer">
+    <p>&copy; 2023. Park Kyung Ho. All rights reserved.</p>
+  </footer>
 </template>
 
 <script>
@@ -212,7 +213,6 @@
 
 export default {
   name: 'App',
-
 }
 </script>
 
