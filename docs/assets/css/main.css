@@ -5148,3 +5148,53 @@ a img {
         height: 1.5rem;
     }
 }
+
+.page-header {
+    background-color: transparent;
+    padding: 1.3rem;
+    position: fixed;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+.nav-bar a {
+    color: white;
+    padding: 1.3rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-bar a:hover {
+    background-color: #5052db;
+}
+
+.menu-icon {
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+@media screen and (max-width: 700px) {
+    .nav-bar {
+        display: none;
+        position: absolute;
+        top: 3.7rem;
+        left: 0;
+        width: 100%;
+        background-color: var(--bgcolor);
+        text-align: center;
+    }
+
+    .nav-bar.responsive {
+        display: block;
+    }
+
+    .nav-bar a {
+        display: block;
+    }
+
+    .menu-icon {
+        display: block;
+        z-index: 1;
+    }
+}

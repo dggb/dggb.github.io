@@ -1,4 +1,15 @@
 <template>
+  <div class="page-header">
+    <a id="menu-icon" class="menu-icon" @click="onMenuClick()">
+      <i class="fa fa-bars"></i>
+    </a>
+
+    <div id="navigation-bar" class="nav-bar">
+      <a class="link" href="#particles-js" data-scroll> PKH Portfolio </a>
+      <a class="link" href="#about" data-scroll>About Me</a>
+      <a class="link" href="#projects" data-scroll>Projects</a>
+    </div>
+  </div>
   <div id="particles-js">
     <div class="header">
       <h1>
@@ -209,11 +220,22 @@
 </template>
 
 <script>
-
-
 export default {
   name: 'App',
 }
+</script>
+
+<script setup>
+// import { ref } from 'vue';
+// const activeLink = ref('HOME');
+
+const onMenuClick = () =>{
+  const navbar = document.getElementById('navigation-bar');
+  const responsive_class_name = 'responsive'
+
+  navbar.classList.toggle(responsive_class_name)
+}
+
 </script>
 
 <style>
