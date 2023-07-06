@@ -171,88 +171,24 @@
           </div>
         </div>
 
-        <!-- User Project #2: Summer 2020 Project -->
-        <div class="user-projects">
-          <div class="images-left">
-            <picture>
-              <img alt="Perpetual Crusades" src="../public/assets/img/jpg/Perpetual-Crusades.jpg" />
-            </picture>
-          </div>
-          <div class="contents-right" style="text-align: center">
-            <h3>Perpetual Crusades</h3>
-            <img
-              height="32"
-              width="32"
-              src="https://unpkg.com/simple-icons@3.4.0/icons/react.svg"
-              style="filter: invert(73%) sepia(74%) saturate(1552%) hue-rotate(169deg) brightness(109%) contrast(97%)"
-            />
-            &nbsp;
-            <img
-              height="32"
-              width="32"
-              src="https://unpkg.com/simple-icons@3.4.0/icons/css3.svg"
-              style="filter: invert(33%) sepia(29%) saturate(3844%) hue-rotate(184deg) brightness(90%) contrast(84%)"
-            />
-            &nbsp;
-            <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/github.svg" />
-            <p style="text-align: justify">
-              만들고 있는 중 입니다.
-            </p>
-            <a class="project-link" target="_blank">자세히 보기!</a
-            >
-          </div>
-        </div>
-
-        <!-- User Project #3: COVID-19 Tracker App -->
-        <div class="user-projects">
-          <div class="images-right">
-            <picture>
-              <img alt="COVID-19 Tracker App" src="../public/assets/img/jpg/COVID19-Tracker-App.jpg" />
-            </picture>
-          </div>
-          <div class="contents" style="text-align: center">
-            <h3>COVID-19 Tracker App</h3>
-            <div>
-              <img
-                height="32"
-                width="32"
-                src="https://unpkg.com/simple-icons@3.4.0/icons/javascript.svg"
-                style="filter: invert(96%) sepia(47%) saturate(4151%) hue-rotate(338deg) brightness(100%) contrast(95%)"
-              />
+        <div class="portfolio-container">
+          <div style="width: 100%;margin: 0 auto;">
+            <div class="portfolio-item">
+              <a class="portfolio-link">
+                  <div class="portfolio-hover">
+                      <div class="portfolio-hover-content">
+                          <i class="fa fa-plus fa-3x"></i>
+                      </div>
+                  </div>
+                  <img src="../public/assets/img/jpg/COVID19-Tracker-App.jpg" style="width: 100%;height: 100%;">
+              </a>
+              <div class="portfolio-caption">
+                  <h4>Dreams</h4>
+                  <p class="text-muted">Website Design</p>
+              </div>
             </div>
-            <p style="text-align: justify">
-              만들고 있는 중 입니다.
-            </p>
-            <a class="project-link" target="_blank">
-              자세히 보기!
-            </a>
           </div>
-        </div>
-
-        <!-- Use Project #4: Valuto: Account Management System -->
-        <div class="user-projects">
-          <div class="images-left">
-            <picture>
-              <img alt="Valuto: Account Management System" src="../public/assets/img/jpg/Valuto-Account-Management.jpg" />
-            </picture>
-          </div>
-          <div class="contents-right" style="text-align: center">
-            <h3>Valuto: Account Management System</h3>
-            <div>
-              <img
-                height="32"
-                width="32"
-                src="https://unpkg.com/simple-icons@3.4.0/icons/cplusplus.svg"
-                style="filter: invert(22%) sepia(77%) saturate(1486%) hue-rotate(183deg) brightness(101%) contrast(103%)"
-              />
-            </div>
-            <p style="text-align: justify">
-              만들고 있는 중 입니다.
-            </p>
-            <a class="project-link" target="_blank">
-              자세히 보기!
-            </a>
-          </div>
+              
         </div>
       </section>
     </div>
