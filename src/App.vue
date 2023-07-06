@@ -171,46 +171,10 @@
           </div>
         </div>
 
-        <div class="user-projects">
-          <div class="images-right">
-            <picture>
-              <source type="image/webp" srcset="../public/assets/img/webp/Personal-Resume-Website.webp" alt="Personal Website" />
-              <img alt="Personal Website" src="../public/assets/img/jpg/Personal-Resume-Website.jpg" />
-            </picture>
-          </div>
-          <div class="contents" style="text-align: center">
-            <h3>Personal Website</h3>
-            <div>
-              <img
-                height="32"
-                width="32"
-                src="https://unpkg.com/simple-icons@3.4.0/icons/react.svg"
-                style="filter: invert(73%) sepia(74%) saturate(1552%) hue-rotate(169deg) brightness(109%) contrast(97%)"
-              />
-              &nbsp;
-              <img
-                height="32"
-                width="32"
-                src="https://unpkg.com/simple-icons@3.4.0/icons/bootstrap.svg"
-                style="filter: invert(24%) sepia(14%) saturate(2270%) hue-rotate(222deg) brightness(102%) contrast(90%)"
-              />
-              &nbsp;
-              <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/github.svg" />
-            </div>
-            <p style="text-align: justify">
-              I developed and designed a website using ReactJS and Bootstrap, hosted on Github Pages, to showcase my web
-              presence, story, work experience, education, projects, and achievements in an interactive and
-              visually-appealing format.
-            </p>
-            <a class="project-link" target="_blank" href="https://www.adityavsingh.com/">Check it out!</a>
-          </div>
-        </div>
-
         <!-- User Project #2: Summer 2020 Project -->
         <div class="user-projects">
           <div class="images-left">
             <picture>
-              <source type="image/webp" srcset="../public/assets/img/webp/Perpetual-Crusades.webp" alt="Perpetual Crusades" />
               <img alt="Perpetual Crusades" src="../public/assets/img/jpg/Perpetual-Crusades.jpg" />
             </picture>
           </div>
@@ -232,12 +196,9 @@
             &nbsp;
             <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/github.svg" />
             <p style="text-align: justify">
-              I created a two-player online dice-based board game with a theme loosely set around Dungeons & Dragons. It
-              was developed as a submission for Penn Apps XXI, using ReactJS and CSS Grid Layouts for design and hosted on
-              GitHub Pages.
+              만들고 있는 중 입니다.
             </p>
-            <a class="project-link" target="_blank" href="https://github.com/AVS1508/Summer-2020-Project"
-              >Check it out!</a
+            <a class="project-link" target="_blank">자세히 보기!</a
             >
           </div>
         </div>
@@ -246,7 +207,6 @@
         <div class="user-projects">
           <div class="images-right">
             <picture>
-              <source type="image/webp" srcset="../public/assets/img/webp/COVID19-Tracker-App.webp" alt="COVID-19 Tracker App" />
               <img alt="COVID-19 Tracker App" src="../public/assets/img/jpg/COVID19-Tracker-App.jpg" />
             </picture>
           </div>
@@ -261,12 +221,10 @@
               />
             </div>
             <p style="text-align: justify">
-              I created a web application for tracking the spread of COVID-19. Using Johns Hopkins University Center For
-              Systems Science and Engineering API, the website processes the COVID-19 data to create statistical
-              projections through graphs and charts.
+              만들고 있는 중 입니다.
             </p>
-            <a class="project-link" target="_blank" href="https://www.adityavsingh.com/covid19-tracker-app">
-              Check it out!
+            <a class="project-link" target="_blank">
+              자세히 보기!
             </a>
           </div>
         </div>
@@ -275,11 +233,6 @@
         <div class="user-projects">
           <div class="images-left">
             <picture>
-              <source
-                type="image/webp"
-                srcset="../public/assets/img/webp/Valuto-Account-Management.webp"
-                alt="Valuto: Account Management System"
-              />
               <img alt="Valuto: Account Management System" src="../public/assets/img/jpg/Valuto-Account-Management.jpg" />
             </picture>
           </div>
@@ -294,13 +247,10 @@
               />
             </div>
             <p style="text-align: justify">
-              I developed a CLI system for accounting management and financial statement maintenance. The purpose of the
-              system is to maintain a record of the funds received, used, disseminated and donated by an organization.
-              Details of transactions and maintenance of a budget and tallying of current balance/inventory in cash/kind
-              is incorporated in this system.
+              만들고 있는 중 입니다.
             </p>
-            <a class="project-link" target="_blank" href="https://github.com/AVS1508/Valuto-Account-Management-System">
-              Check it out!
+            <a class="project-link" target="_blank">
+              자세히 보기!
             </a>
           </div>
         </div>
