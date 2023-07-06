@@ -142,14 +142,14 @@
 
                     <div>
                       <div class="box_title_style">학력</div>
-                      <div class="box_item_style">방송통신대학교<br>(컴퓨터과학과)<br>동서울대학교<br>(컴퓨터소프트웨어과)</div>
+                      <div class="box_item_style">방송통신대학교<br>(컴퓨터과학과)<br>동서울대학교<br>(소프트웨어과)</div>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="about_footer_style">* 문의 사항이 있으시면&nbsp;
                 <br class="about_footer_br_style">
-                위 연락처/이메일로 연락 부탁드립니다.
+                위 연락처/이메일로 연락 해주세요.
               </div>
             </div>
           </div>
