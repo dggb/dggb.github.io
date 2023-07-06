@@ -5149,7 +5149,7 @@ a img {
     }
 }
 
-.page-header {
+.page-navBar {
     background-color: transparent;
     padding: 1.3rem;
     position: fixed;
@@ -5198,3 +5198,115 @@ a img {
         z-index: 1;
     }
 }
+
+.about_div_style{
+    -webkit-box-sizing: border-box;
+    width: 100%;
+    max-width: 71.25rem;
+    padding: 4rem 2rem;
+    margin: 0 auto;
+}
+
+.about_child_style{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    -webkit-box-pack: justify;
+}
+
+.box_size_style {
+    margin-bottom:2rem;
+    width:33.3333%
+}
+
+.box_info_style {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    max-width: 14rem;
+    margin: 0 auto;
+    opacity: .8;
+}
+
+.box_image_style {
+    width: 2rem;
+    min-width: 2rem;
+    height: 2rem;
+    margin-top: 0.2rem;
+    margin-right: 2rem;
+}
+
+.box_title_style{
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.box_item_style{
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.about_footer_style{
+    padding: 1rem;
+    margin-top: 1.5rem;
+    background-color: #f0c9c9;
+    font-weight: 700;
+    text-align: center;
+}
+
+.about_footer_br_style{
+    display: none
+}
+
+@media (max-width: 992px) {
+    .box_size_style{
+        width:50%
+    }
+}
+
+@media(max-width: 576px) {
+    .box_size_style{
+        width:100%
+    }
+    
+    .about_footer_br_style{
+        display: inline;
+    }
+}
+
+html {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll; 
+}
+  
+html::-webkit-scrollbar {
+    display: none;
+}
+
+#scrollToTopButton {
+    position: fixed;
+    right: 1.5rem;
+    bottom: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in-out;
+    cursor: pointer;
+  }
+
+  #scrollToTopButton:hover {
+    opacity: 1;
+  }
+
+  #scrollToTopButton svg {
+    width: 100%;
+    height: 100%;
+  }
