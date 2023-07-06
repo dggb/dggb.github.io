@@ -64,12 +64,12 @@
             </div>
             <picture>
               <!-- 내 사진 -->
-              <!-- <img
+              <img
                 src="../public/assets/img/jpg/myImag.jpg"
                 alt="Professional Me"
                 width="20%"
                 style="border-radius: 50%;border: 7px solid #fff;"
-              /> -->
+              />
             </picture>
 
             <div class="about_div_style">
@@ -77,7 +77,7 @@
                 <div class="box_size_style">
                   <div class="box_info_style">
                     <div class="box_image_style">
-                      <img alt="" style="width: 100%; vertical-align:middle">
+                      <img src="../public/assets/img/png/user.png" style="width: 100%; vertical-align:middle">
                     </div>
 
                     <div>
@@ -89,67 +89,67 @@
                 <div class="box_size_style">
                   <div class="box_info_style">
                     <div class="box_image_style">
-                      <img alt="" style="width: 100%; vertical-align:middle">
+                      <img src="../public/assets/img/png/calendar.png" style="width: 100%; vertical-align:middle">
                     </div>
 
                     <div>
-                      <div class="box_title_style">이름</div>
-                      <div class="box_item_style">박경호</div>
+                      <div class="box_title_style">생년월일</div>
+                      <div class="box_item_style">93.12.14</div>
                     </div>
                   </div>
                 </div>
                 <div class="box_size_style">
                   <div class="box_info_style">
                     <div class="box_image_style">
-                      <img alt="" style="width: 100%; vertical-align:middle">
+                      <img src="../public/assets/img/png/location.png" style="width: 100%; vertical-align:middle">
                     </div>
 
                     <div>
-                      <div class="box_title_style">이름</div>
-                      <div class="box_item_style">박경호</div>
+                      <div class="box_title_style">주소지</div>
+                      <div class="box_item_style">서울특별시 송파구</div>
                     </div>
                   </div>
                 </div>
                 <div class="box_size_style">
                   <div class="box_info_style">
                     <div class="box_image_style">
-                      <img alt="" style="width: 100%; vertical-align:middle">
+                      <img src="../public/assets/img/png/phone.png" style="width: 100%; vertical-align:middle">
                     </div>
 
                     <div>
-                      <div class="box_title_style">이름</div>
-                      <div class="box_item_style">박경호</div>
+                      <div class="box_title_style">연락처</div>
+                      <div class="box_item_style">010-4013-4685</div>
                     </div>
                   </div>
                 </div>
                 <div class="box_size_style">
                   <div class="box_info_style">
                     <div class="box_image_style">
-                      <img alt="" style="width: 100%; vertical-align:middle">
+                      <img src="../public/assets/img/png/email.png" style="width: 100%; vertical-align:middle">
                     </div>
 
                     <div>
-                      <div class="box_title_style">이름</div>
-                      <div class="box_item_style">박경호</div>
+                      <div class="box_title_style">이메일</div>
+                      <div class="box_item_style">dggb2@naver.com</div>
                     </div>
                   </div>
                 </div>
                 <div class="box_size_style">
                   <div class="box_info_style">
                     <div class="box_image_style">
-                      <img alt="" style="width: 100%; vertical-align:middle">
+                      <img src="../public/assets/img/png/Education.png" style="width: 100%; vertical-align:middle">
                     </div>
 
                     <div>
-                      <div class="box_title_style">이름</div>
-                      <div class="box_item_style">박경호</div>
+                      <div class="box_title_style">학력</div>
+                      <div class="box_item_style">방송통신대학교<br>(컴퓨터과학과)<br>동서울대학교<br>(컴퓨터소프트웨어과)</div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="about_footer_style">* 프로젝트가 마음에 드시면&nbsp;
+              <div class="about_footer_style">* 문의 사항이 있으시면&nbsp;
                 <br class="about_footer_br_style">
-                위 연락처/이메일로 부탁드립니다.
+                위 연락처/이메일로 연락 부탁드립니다.
               </div>
             </div>
           </div>

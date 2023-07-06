@@ -5223,7 +5223,7 @@ a img {
     display: flex;
     flex-flow: row nowrap;
     width: 100%;
-    max-width: 14rem;
+    max-width: 15rem;
     margin: 0 auto;
     opacity: .8;
 }
@@ -5238,13 +5238,16 @@ a img {
 
 .box_title_style{
     margin-bottom: 0.5rem;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 1.25rem;
+    color: black;
+    text-align: left;
 }
 
 .box_item_style{
-    font-weight: 400;
+    font-weight: 500;
     font-size: 1rem;
+    text-align: left;
 }
 
 .about_footer_style{
