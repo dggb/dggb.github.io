@@ -64,12 +64,7 @@
             </div>
             <picture>
               <!-- 내 사진 -->
-              <img
-                src="../public/assets/img/jpg/myImag.jpg"
-                alt="Professional Me"
-                width="20%"
-                style="border-radius: 50%;border: 7px solid #fff;"
-              />
+              <img src="../public/assets/img/jpg/myImag.jpg" class="myImg"/>
             </picture>
 
             <div class="about_div_style">

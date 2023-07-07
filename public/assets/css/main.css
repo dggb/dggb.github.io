@@ -5262,6 +5262,29 @@ a img {
     display: none
 }
 
+.myImg{
+    width: 200px;
+}
+
+@media (max-width: 992px) {
+    .box_size_style{
+        width:50%
+    }
+}
+
+@media(max-width: 576px) {
+    .box_size_style{
+        width:100%
+    }
+    
+    .about_footer_br_style{
+        display: inline;
+    }
+
+    .myImg{
+        width:160px
+    }
+}
 
 html {
     -ms-overflow-style: none;
@@ -5299,18 +5322,6 @@ html::-webkit-scrollbar {
     height: 100%;
 }
 
-@media(max-width: 576px) {
-    .box_size_style{
-        width:100%
-    }
-}
-
-@media (max-width: 992px) {
-    .box_size_style{
-        width:50%
-    }
-}
-
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
@@ -5331,7 +5342,7 @@ html::-webkit-scrollbar {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-    background: rgba(254,209,54,.9); /* Fallback when no plugin support */
+    background: rgba(254,209,54,.9);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -5488,10 +5499,6 @@ html::-webkit-scrollbar {
         width: 33.33333333%;
         float: left;
     }
-
-    .box_size_style{
-        width:50%
-    }
 }
 
 @media(min-width:768px) {
@@ -5510,9 +5517,5 @@ html::-webkit-scrollbar {
     .col-sm-6 {
         width: 100%;
         max-width: 100%;
-    }
-
-    .box_size_style{
-        width:100%
     }
 }
