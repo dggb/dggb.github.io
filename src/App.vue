@@ -8,7 +8,31 @@
     </a>
     
     <!-- navBar 페이지 -->
-    <div class="page-navBar">
+    <nav class="navbar navbar-default navbar-fixed-top" id="navbarStyle">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#hamburgerTarget">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#" data-scroll>안녕</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="hamburgerTarget">
+                <ul class="nav navbar-nav navbar-right">                    
+                    <li>
+                        <a class="page-scroll" href="#about" data-scroll>About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#projects" data-scroll>Portfolio</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- <div class="page-navBar">
       <a id="menu-icon" class="menu-icon" @click="onMenuClick()">
         <i class="fa fa-bars"></i>
       </a>
@@ -18,7 +42,7 @@
         <a class="link" href="#about" data-scroll>About Me</a>
         <a class="link" href="#projects" data-scroll>Projects</a>
       </div>
-    </div>
+    </div> -->
     
     <!-- header 페이지 -->
     <div id="particles-js">
@@ -218,59 +242,53 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal">
+                    <a class="portfolio-link" data-toggle="modal" href="#">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="../public/assets/img/jpg/COVID19-Tracker-App.jpg" class="img-responsive img-centered" alt="" style="display:block;
-                        max-width:100%;
-                        height:auto">
+                        <img src="../public/assets/img/jpg/COVID19-Tracker-App.jpg" class="projects_img_style" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>타이틀</h4>
-                        <p class="text-muted">야야야</p>
+                        <h4 style="font-weight:bold">코로나 어플</h4>
+                        <p class="text-muted">뭘 했을까</p>
                     </div>
                 </div>
+
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal">
+                    <a class="portfolio-link" data-toggle="modal" href="#">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="../public/assets/img/jpg/COVID19-Tracker-App.jpg" class="img-responsive img-centered" alt="" style="display:block;
-                        max-width:100%;
-                        height:auto">
+                        <img src="../public/assets/img/jpg/Perpetual-Crusades.jpg" class="projects_img_style" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>타이틀</h4>
-                        <p class="text-muted">야야야</p>
+                        <h4 style="font-weight:bold">게임 사이트</h4>
+                        <p class="text-muted">만 들었을까</p>
                     </div>
                 </div>
+
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal">
+                    <a class="portfolio-link" data-toggle="modal" href="#">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="../public/assets/img/jpg/COVID19-Tracker-App.jpg" class="img-responsive img-centered" alt="" style="display:block;
-                        max-width:100%;
-                        height:auto">
+                        <img src="../public/assets/img/jpg/Valuto-Account-Management.jpg" class="projects_img_style" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>타이틀</h4>
-                        <p class="text-muted">야야야</p>
+                        <h4 style="font-weight:bold">코드 테스트</h4>
+                        <p class="text-muted">하긴 했겠지</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     </div>
-
-    
 
     <!-- footer -->
     <footer class="footer">
@@ -293,10 +311,14 @@ import { ref, onMounted, onBeforeUnmount } from 'vue';
 const showScrollButton = ref(false);
 
 const handleScroll = () => {
+  var navbar = document.getElementById("navbarStyle");
+
   if (window.pageYOffset > 100) {
     showScrollButton.value = true;
+    navbar.className = "navbar navbar-default navbar-fixed-top navbar-scrolled";
   } else {
     showScrollButton.value = false;
+    navbar.className = "navbar navbar-default navbar-fixed-top";
   }
 };
 
@@ -312,12 +334,8 @@ onBeforeUnmount(() => {
   window.removeEventListener('scroll', handleScroll);
 });
 
-const onMenuClick = () =>{
-  const navbar = document.getElementById('navigation-bar');
-  const responsive_class_name = 'responsive'
 
-  navbar.classList.toggle(responsive_class_name)
-}
+
 
 </script>
 
