@@ -171,7 +171,57 @@
           </div>
         </div>
 
-        <div class="portfolio-container">
+        <section id="portfolio" class="bg-light-gray">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 portfolio-item">
+                        <a href="#" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fa fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="../public/assets/img/jpg/COVID19-Tracker-App.jpg" class="img-responsive img-centered" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>타이틀</h4>
+                            <p class="text-muted">아이템</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 portfolio-item">
+                        <a href="#" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fa fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="../public/assets/img/jpg/COVID19-Tracker-App.jpg" class="img-responsive img-centered" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>타이틀</h4>
+                            <p class="text-muted">아이템</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 portfolio-item">
+                        <a href="#" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fa fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="../public/assets/img/jpg/COVID19-Tracker-App.jpg" class="img-responsive img-centered" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>타이틀</h4>
+                            <p class="text-muted">아이템</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+      </section>
+    </div>
+    <!-- <div class="portfolio-container">
           <div style="width: 100%;margin: 0 auto;">
             <div class="portfolio-item">
               <a class="portfolio-link">
@@ -189,10 +239,7 @@
             </div>
           </div>
               
-        </div>
-      </section>
-    </div>
-
+        </div> -->
     <!-- footer -->
     <footer class="footer">
       <p>&copy; 2023. Park Kyung Ho. All rights reserved.</p>
