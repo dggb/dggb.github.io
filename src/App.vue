@@ -23,7 +23,7 @@
     <!-- header 페이지 -->
     <div id="particles-js">
       <div class="header">
-        <h1>
+        <h1 style="font-weight:bold">
           <span class="site-title">프론트엔드 개발자</span>
           <span class="site-description">- 박경호 -</span>
         </h1>
@@ -31,15 +31,16 @@
           <!-- <a aria-label="My LinkedIn Profile" target="_blank" href="https://www.linkedin.com/in/avs1508/">
             <i class="icon fa fa-linkedin" aria-hidden="true"></i>
           </a> -->
-          <a aria-label="My Github Profile" target="_blank" href="https://github.com/dggb">
-            <i class="icon fa fa-github-alt" aria-hidden="true"></i>
-          </a>
           <!-- <a aria-label="My Résumé" target="_blank" href="https://www.adityavsingh.com/resume.html">
             <i class="icon fa fa fa-file-pdf-o" aria-hidden="true"></i>
           </a>
           <a aria-label="Send Email" href="mailto:avsingh@umass.edu" target="_blank"
             ><i class="icon fa fa-envelope"></i
           ></a> -->
+          <a aria-label="My Github Profile" target="_blank" href="https://github.com/dggb">
+            <i class="icon fa fa-github-alt" aria-hidden="true"></i>
+          </a>
+
         </div>
         <div class="header-links">
           <a class="link" href="#about" data-scroll>About Me</a>
@@ -165,76 +166,112 @@
             </a>
           </div>
         </div>
-
-        <section id="portfolio" class="bg-light-gray">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 col-sm-6 portfolio-item">
-                        <a href="#" class="portfolio-link" data-toggle="modal">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
+    
+        <!-- <section id="portfolio" class="bg-light-gray">
+            <div class="row">
+                <div class="portfolio-item col-md-4 col-sm-6">
+                    <a href="#" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
                             </div>
-                            <img src="../public/assets/img/jpg/COVID19-Tracker-App.jpg" class="img-responsive img-centered" alt="">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>타이틀</h4>
-                            <p class="text-muted">아이템</p>
                         </div>
+                        <img src="../public/assets/img/jpg/COVID19-Tracker-App.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>타이틀</h4>
+                        <p class="text-muted">아이템</p>
                     </div>
-                    <div class="col-md-4 col-sm-6 portfolio-item">
-                        <a href="#" class="portfolio-link" data-toggle="modal">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
+                </div>
+                <div class="portfolio-item col-md-4 col-sm-6">
+                    <a href="#" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
                             </div>
-                            <img src="../public/assets/img/jpg/COVID19-Tracker-App.jpg" class="img-responsive img-centered" alt="">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>타이틀</h4>
-                            <p class="text-muted">아이템</p>
                         </div>
+                        <img src="../public/assets/img/jpg/COVID19-Tracker-App.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>타이틀</h4>
+                        <p class="text-muted">아이템</p>
                     </div>
-                    <div class="col-md-4 col-sm-6 portfolio-item">
-                        <a href="#" class="portfolio-link" data-toggle="modal">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
+                </div>
+                <div class="portfolio-item col-md-4 col-sm-6">
+                    <a href="#" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
                             </div>
-                            <img src="../public/assets/img/jpg/COVID19-Tracker-App.jpg" class="img-responsive img-centered" alt="">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>타이틀</h4>
-                            <p class="text-muted">아이템</p>
                         </div>
+                        <img src="../public/assets/img/jpg/COVID19-Tracker-App.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>타이틀</h4>
+                        <p class="text-muted">아이템</p>
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
       </section>
-    </div>
-    <!-- <div class="portfolio-container">
-          <div style="width: 100%;margin: 0 auto;">
-            <div class="portfolio-item">
-              <a class="portfolio-link">
-                  <div class="portfolio-hover">
-                      <div class="portfolio-hover-content">
-                          <i class="fa fa-plus fa-3x"></i>
-                      </div>
-                  </div>
-                  <img src="../public/assets/img/jpg/COVID19-Tracker-App.jpg" style="width: 100%;height: 100%;">
-              </a>
-              <div class="portfolio-caption">
-                  <h4>Dreams</h4>
-                  <p class="text-muted">Website Design</p>
-              </div>
+      <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="../public/assets/img/jpg/COVID19-Tracker-App.jpg" class="img-responsive img-centered" alt="" style="display:block;
+                        max-width:100%;
+                        height:auto">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>타이틀</h4>
+                        <p class="text-muted">야야야</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="../public/assets/img/jpg/COVID19-Tracker-App.jpg" class="img-responsive img-centered" alt="" style="display:block;
+                        max-width:100%;
+                        height:auto">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>타이틀</h4>
+                        <p class="text-muted">야야야</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="../public/assets/img/jpg/COVID19-Tracker-App.jpg" class="img-responsive img-centered" alt="" style="display:block;
+                        max-width:100%;
+                        height:auto">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>타이틀</h4>
+                        <p class="text-muted">야야야</p>
+                    </div>
+                </div>
             </div>
-          </div>
-              
-        </div> -->
+        </div>
+    </section>
+    </div>
+
+    
+
     <!-- footer -->
     <footer class="footer">
       <p>&copy; 2023. Park Kyung Ho. All rights reserved.</p>
