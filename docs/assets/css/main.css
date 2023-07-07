@@ -5481,22 +5481,38 @@ html::-webkit-scrollbar {
     max-width: 50%;
 }
 
-@media(min-width:767px) {
-    #portfolio .portfolio-item {
-        margin: 0 0 30px;
+
+@media(min-width:992px) {
+    .col-md-4 {
+        max-width: 33.33333333%;
+        width: 33.33333333%;
+        float: left;
+    }
+
+    .box_size_style{
+        width:50%
     }
 }
 
 @media(min-width:768px) {
+    #portfolio .portfolio-item {
+        margin: 0 0 30px;
+    }
+
     .col-sm-6 {
+        max-width: 50%;
         width: 50%;
         float: left;
     }
 }
 
-@media(min-width:992px) {
-    .col-md-4 {
-        width: 33.33333333%;
-        float: left;
+@media(max-width: 576px) {
+    .col-sm-6 {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .box_size_style{
+        width:100%
     }
 }
