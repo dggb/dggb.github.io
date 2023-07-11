@@ -17,7 +17,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#" style="font-weight:bold" data-scroll :class="{ 'titleColor': showScrollButton }">PKH Portfolio</a>
+                <a class="navbar-brand page-scroll" href="#" style="font-weight:bold" data-scroll :class="{ 'titleColor': showHamburger }">PKH Portfolio</a>
             </div>
 
             <div class="collapse navbar-collapse" :class="{ 'in': isToggle }">
@@ -252,6 +252,7 @@ import { ref, onMounted, onBeforeUnmount } from 'vue';
 
 const showScrollButton = ref(false);
 const isToggle = ref(false);
+const showHamburger = ref(false);
 
 const toggleData = () => {
   isToggle.value = !isToggle.value;
@@ -259,36 +260,22 @@ const toggleData = () => {
 
 const handleScroll = () => {
   const navbar = document.getElementById("navbarStyle");
+  const screenWidth = window.innerWidth < 768;
+  const isScrolled = window.pageYOffset > 100;
 
-  if (window.pageYOffset > 100) {
-    showScrollButton.value = true;
-    navbar.className = "navbar navbar-default navbar-fixed-top navbar-scrolled";
+  showScrollButton.value = isScrolled;
+
+  if (screenWidth) {
+    navbar.className = `navbar navbar-default navbar-fixed-top navbar-scrolled`;
+    showHamburger.value = true;
   } else {
-    if(window.innerWidth < 768){
-      showScrollButton.value = true;
-      navbar.className = "navbar navbar-default navbar-fixed-top navbar-scrolled";
-    }else{
-      showScrollButton.value = false;
-      navbar.className = "navbar navbar-default navbar-fixed-top navbar-noScrolled";
-    }
+    navbar.className = `navbar navbar-default navbar-fixed-top ${isScrolled ? "navbar-scrolled" : "navbar-noScrolled"}`;
+    showHamburger.value = isScrolled;
   }
 };
 
 const handleResize = () => {
-  const navbar = document.getElementById("navbarStyle");
-
-  if (window.innerWidth < 768) {
-    showScrollButton.value = true;
-    navbar.className = "navbar navbar-default navbar-fixed-top navbar-scrolled";
-  } else {
-    if(window.pageYOffset > 100){
-      showScrollButton.value = true;
-      navbar.className = "navbar navbar-default navbar-fixed-top navbar-scrolled";
-    }else{
-      showScrollButton.value = false;
-      navbar.className = "navbar navbar-default navbar-fixed-top navbar-noScrolled";
-    }
-  }
+  handleScroll();
 };
 
 const scrollToTop = () => {
