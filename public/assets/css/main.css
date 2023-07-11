@@ -5595,9 +5595,38 @@ html::-webkit-scrollbar {
 }
 
 #navbarStyle.navbar-scrolled {
-    background-color: wheat;
+    background-color: #222;
+    opacity: 1;
 }
 
-#navbarStyle.navbar-scrolled .navbar-toggle {
-    background-color: wheat;
+.titleColor {
+    color: #fec503 !important;
+}
+
+#navbarStyle.navbar-noScrolled {
+    opacity: 0.6;
+}
+
+@media (min-width: 992px)
+{
+    .projects_img_style {
+        display: block;
+        max-width: 100%;
+        height: 250px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+}
+
+@media(min-width:1200px) {
+    .projects_img_style {
+        display: block;
+        max-width: 100%;
+        height: 300px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    
 }

@@ -11,38 +11,27 @@
     <nav class="navbar navbar-default navbar-fixed-top" id="navbarStyle">
         <div class="container">
             <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#hamburgerTarget">
+                <button type="button" class="navbar-toggle collapsed" @click="toggleData">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#" data-scroll>안녕</a>
+                <a class="navbar-brand page-scroll" href="#" style="font-weight:bold" data-scroll :class="{ 'titleColor': showScrollButton }">PKH Portfolio</a>
             </div>
 
-            <div class="collapse navbar-collapse" id="hamburgerTarget">
+            <div class="collapse navbar-collapse" :class="{ 'in': isToggle }">
                 <ul class="nav navbar-nav navbar-right">                    
                     <li>
-                        <a class="page-scroll" href="#about" data-scroll>About</a>
+                        <a class="page-scroll" href="#about" data-scroll @click="closeToggle">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#projects" data-scroll>Portfolio</a>
+                        <a class="page-scroll" href="#projects" data-scroll @click="closeToggle">Portfolio</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <!-- <div class="page-navBar">
-      <a id="menu-icon" class="menu-icon" @click="onMenuClick()">
-        <i class="fa fa-bars"></i>
-      </a>
-
-      <div id="navigation-bar" class="nav-bar">
-        <a class="link" href="#particles-js" data-scroll> PKH Portfolio </a>
-        <a class="link" href="#about" data-scroll>About Me</a>
-        <a class="link" href="#projects" data-scroll>Projects</a>
-      </div>
-    </div> -->
     
     <!-- header 페이지 -->
     <div id="particles-js">
@@ -75,8 +64,9 @@
     </div>
 
     <!-- about me 페이지 -->
+    <div id="about" style="padding: 30px;"></div>
     <div style="background-color:white">
-      <section id="about">
+      <section >
           <div class="user-details">
             <div class="section_table_style">
               <div class="section_title_style" style="color:#000000;">ABOUT ME</div>
@@ -178,7 +168,7 @@
 
     <!-- projects 페이지 -->
     <div style="background-color:#f5f5f5">
-      <section id="projects">
+      <section id="projects" style="padding-top:45px">
         <div class="user-details">
           <div class="section_table_style">
             <div class="section_title_style" style="color:#000000;">PROJECTS</div>
@@ -190,53 +180,6 @@
             </a>
           </div>
         </div>
-    
-        <!-- <section id="portfolio" class="bg-light-gray">
-            <div class="row">
-                <div class="portfolio-item col-md-4 col-sm-6">
-                    <a href="#" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="../public/assets/img/jpg/COVID19-Tracker-App.jpg" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>타이틀</h4>
-                        <p class="text-muted">아이템</p>
-                    </div>
-                </div>
-                <div class="portfolio-item col-md-4 col-sm-6">
-                    <a href="#" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="../public/assets/img/jpg/COVID19-Tracker-App.jpg" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>타이틀</h4>
-                        <p class="text-muted">아이템</p>
-                    </div>
-                </div>
-                <div class="portfolio-item col-md-4 col-sm-6">
-                    <a href="#" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="../public/assets/img/jpg/COVID19-Tracker-App.jpg" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>타이틀</h4>
-                        <p class="text-muted">아이템</p>
-                    </div>
-                </div>
-            </div>
-        </section> -->
       </section>
       <section id="portfolio" class="bg-light-gray">
         <div class="container">
@@ -306,19 +249,45 @@ export default {
 <script setup>
 
 import { ref, onMounted, onBeforeUnmount } from 'vue';
-// const activeLink = ref('HOME');
 
 const showScrollButton = ref(false);
+const isToggle = ref(false);
+
+const toggleData = () => {
+  isToggle.value = !isToggle.value;
+};
 
 const handleScroll = () => {
-  var navbar = document.getElementById("navbarStyle");
+  const navbar = document.getElementById("navbarStyle");
 
   if (window.pageYOffset > 100) {
     showScrollButton.value = true;
     navbar.className = "navbar navbar-default navbar-fixed-top navbar-scrolled";
   } else {
-    showScrollButton.value = false;
-    navbar.className = "navbar navbar-default navbar-fixed-top";
+    if(window.innerWidth < 768){
+      showScrollButton.value = true;
+      navbar.className = "navbar navbar-default navbar-fixed-top navbar-scrolled";
+    }else{
+      showScrollButton.value = false;
+      navbar.className = "navbar navbar-default navbar-fixed-top navbar-noScrolled";
+    }
+  }
+};
+
+const handleResize = () => {
+  const navbar = document.getElementById("navbarStyle");
+
+  if (window.innerWidth < 768) {
+    showScrollButton.value = true;
+    navbar.className = "navbar navbar-default navbar-fixed-top navbar-scrolled";
+  } else {
+    if(window.pageYOffset > 100){
+      showScrollButton.value = true;
+      navbar.className = "navbar navbar-default navbar-fixed-top navbar-scrolled";
+    }else{
+      showScrollButton.value = false;
+      navbar.className = "navbar navbar-default navbar-fixed-top navbar-noScrolled";
+    }
   }
 };
 
@@ -328,14 +297,17 @@ const scrollToTop = () => {
 
 onMounted(() => {
   window.addEventListener('scroll', handleScroll);
+  window.addEventListener('resize', handleResize);
 });
 
 onBeforeUnmount(() => {
   window.removeEventListener('scroll', handleScroll);
+  window.removeEventListener('resize', handleResize); 
 });
 
-
-
+const closeToggle = () => {
+  isToggle.value = false;
+}
 
 </script>
 
