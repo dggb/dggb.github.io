@@ -103,7 +103,7 @@
 
 <script>
 export default {
-  name: 'AboutPage'
+  name: 'AboutComponent'
 }
 </script>
 
