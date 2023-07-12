@@ -35,7 +35,7 @@
 
 <script>
 export default {
-  name: 'CommonEventComponent'
+  name: 'commonEvent-component'
 }
 </script>
 

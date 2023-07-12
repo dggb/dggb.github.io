@@ -1,19 +1,19 @@
 <template>
   <div>
     <!-- 공통 이벤트 영역 -->
-    <CommonEventComponent />
+    <common-event-component />
     
     <!-- header 영역 -->
-    <HeaderComponent />
+    <header-component />
    
     <!-- about me 영역 -->
-    <AboutComponent />
+    <about-component />
 
     <!-- projects 영역 -->
-    <ProjectComponent />
+    <project-component />
 
     <!-- footer -->
-    <FooterComponent />
+    <footer-component />
   </div>
 </template>
 
@@ -24,11 +24,11 @@ export default {
 </script>
 
 <script setup>
-import CommonEventComponent from './components/CommonEventComponent.vue'
-import HeaderComponent from './components/HeaderComponent.vue'
-import AboutComponent from './components/AboutComponent.vue'
-import ProjectComponent from './components/ProjectComponent.vue'
-import FooterComponent from './components/FooterComponent.vue'
+import CommonEventComponent from './components/commonEvent-component.vue'
+import HeaderComponent from './components/header-component.vue'
+import AboutComponent from './components/about-component.vue'
+import ProjectComponent from './components/project-component.vue'
+import FooterComponent from './components/footer-component.vue'
 </script>
 
 <style>
