@@ -134,7 +134,7 @@ const checkMatchingCards = () => {
 
   setTimeout(() => {
     noSameCard();
-  }, 1000);
+  }, 500);
 };
 
 const noSameCard = () => {
