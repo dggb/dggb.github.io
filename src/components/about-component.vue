@@ -13,7 +13,7 @@
             </a>
           </div>
           <picture>
-            <img src="../../public/assets/img/jpg/myImag.jpg" class="myImg"/>
+            <!-- <img src="../../public/assets/img/jpg/myImag.jpg" class="myImg"/> -->
           </picture>
 
           <div class="about_div_style">

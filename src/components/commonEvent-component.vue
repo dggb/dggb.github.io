@@ -10,8 +10,8 @@
   <nav class="navbar navbar-default navbar-fixed-top" id="navbarStyle">
       <div class="container">
           <div class="navbar-header page-scroll">
-              <button type="button" class="navbar-toggle collapsed" @click="toggleData">
-                  <span class="sr-only">Toggle navigation</span>
+              <button type="button" class="navbar-toggle collapsed" @click="toggleData" style="cursor: pointer;">
+                  <span class="sr-only"></span>
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
@@ -26,6 +26,9 @@
                   </li>
                   <li>
                       <a class="page-scroll" href="#projects" data-scroll @click="closeToggle">Portfolio</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="#career" data-scroll @click="closeToggle">Career</a>
                   </li>
               </ul>
           </div>

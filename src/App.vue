@@ -12,6 +12,9 @@
     <!-- projects 영역 -->
     <project-component />
 
+    <!-- career 영역 -->
+    <career-component />
+
     <!-- footer -->
     <footer-component />
   </div>
@@ -44,6 +47,7 @@ export default {
 import CommonEventComponent from './components/commonEvent-component.vue'
 import HeaderComponent from './components/header-component.vue'
 import AboutComponent from './components/about-component.vue'
+import CareerComponent from './components/career-component.vue'
 import ProjectComponent from './components/project-component.vue'
 import FooterComponent from './components/footer-component.vue'
 import { ref, reactive, watch, nextTick } from 'vue';

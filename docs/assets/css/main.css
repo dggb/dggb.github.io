@@ -5448,6 +5448,7 @@ html::-webkit-scrollbar {
     -moz-transition: all ease .5s;
     transition: all ease .5s;
     background: rgba(254,209,54,.9); /* Fallback when no plugin support */
+    cursor: pointer;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -5476,7 +5477,7 @@ html::-webkit-scrollbar {
 
 #portfolio .portfolio-item .portfolio-caption {
     margin: 0 auto;
-    padding: 25px;
+    padding: 0px 25px 15px 25px;
     max-width: 400px;
     text-align: center;
     background-color: #fff;
@@ -5628,5 +5629,55 @@ html::-webkit-scrollbar {
         background-position: center center;
         background-size: cover;
     }
-    
 }
+
+.modal-image{
+    display: block;
+    width: 100% \9;
+    max-width: 100%;
+    height: auto;
+}
+
+.careerBody{
+    margin: 0 auto;
+    box-sizing:border-box;
+    width: 90%;
+    padding-bottom: 5rem;
+}
+
+.careerLogo{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    overflow: hidden;
+    width: 15rem;
+    border: 1px solid #ccc;
+    border-radius: 10rem;
+    background-color: #fff;
+}
+
+.careerText{
+    text-align: left;
+    padding-left: 3rem;
+    width: 50%;
+}
+
+.careerTitle{
+    padding-bottom: 0.5rem;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.careerDis{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    -webkit-box-pack: center;
+}
+
+
