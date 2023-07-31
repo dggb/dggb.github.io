@@ -5656,6 +5656,7 @@ html::-webkit-scrollbar {
     -ms-flex-align: center;
     overflow: hidden;
     width: 15rem;
+    height: 5rem;
     border: 1px solid #ccc;
     border-radius: 10rem;
     background-color: #fff;
@@ -5680,4 +5681,22 @@ html::-webkit-scrollbar {
     -webkit-box-pack: center;
 }
 
+.careerLeft{
+    padding-right: 3rem;
+    border-right: 1px solid #ccc;
+}
 
+@media(min-width:500px) {
+    .careerLogo {
+        width: 10rem;
+        height: 3.5rem;
+    }
+
+}
+
+@media(min-width:1150px) {
+    .careerLogo {
+        width: 15rem;
+        height: 5rem;
+    }
+}
