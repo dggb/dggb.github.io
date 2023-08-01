@@ -5759,6 +5759,12 @@ html::-webkit-scrollbar {
     background-color: #fff;
     -webkit-box-sizing: border-box;
     -webkit-box-shadow: 1rem 1rem 1rem 0 rgba(68,68,68,.2);
+
+    transition: transform 0.3s;
+}
+
+.skillSubBody:hover {
+    transform: translateY(8px);
 }
 
 .skillBody{
