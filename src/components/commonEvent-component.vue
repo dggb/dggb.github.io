@@ -25,7 +25,7 @@
                       <a class="page-scroll" href="#about" data-scroll @click="closeToggle">About</a>
                   </li>
                   <li>
-                      <a class="page-scroll" href="#projects" data-scroll @click="closeToggle">Portfolio</a>
+                      <a class="page-scroll" href="#projects" data-scroll @click="closeToggle">Projects</a>
                   </li>
                   <li>
                       <a class="page-scroll" href="#career" data-scroll @click="closeToggle">Career</a>
