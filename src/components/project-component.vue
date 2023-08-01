@@ -131,7 +131,7 @@
               </div>
           </div>
       </div>
-  </section>
+    </section>
   </div>
 
   <ModalComponent ref="refModal"></ModalComponent>

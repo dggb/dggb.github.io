@@ -30,6 +30,10 @@
                   <li>
                       <a class="page-scroll" href="#career" data-scroll @click="closeToggle">Career</a>
                   </li>
+                  <li>
+                      <a class="page-scroll" href="#skill" data-scroll @click="closeToggle">Skills</a>
+                  </li>
+                  
               </ul>
           </div>
       </div>
