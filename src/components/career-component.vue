@@ -1,5 +1,5 @@
 <template>
-   <div id="career" style="padding: 30px;"></div>
+   <div id="career" style="padding: 30px;width: 100%;margin: 0 auto;"></div>
    <div style="background-color:white">
     <section>
         <div class="user-details">

@@ -5664,7 +5664,7 @@ html::-webkit-scrollbar {
 
 .careerText{
     text-align: left;
-    padding-left: 3rem;
+    padding-left: 1.5rem;
     width: 50%;
 }
 
@@ -5682,7 +5682,7 @@ html::-webkit-scrollbar {
 }
 
 .careerLeft{
-    padding-right: 3rem;
+    padding-right: 1.5rem;
     border-right: 1px solid #ccc;
 }
 
@@ -5694,9 +5694,37 @@ html::-webkit-scrollbar {
 
 }
 
+@media (max-width: 768px) {
+    .careerLogo{
+        height: 15rem;
+        width: 15rem;
+        margin: 0 auto;
+    }
+
+    .careerText{
+        padding-right: 1.5rem;
+        width: 100%;
+    }
+
+    .careerLeft{
+        padding-right: 0;
+        padding-bottom: 2rem;
+        border-right: none;
+    }
+
+    .careerDis{
+        flex-direction: column;
+    }
+    .careerBody{
+        width : 100%;
+    }
+}
+
 @media(min-width:1150px) {
     .careerLogo {
         width: 15rem;
         height: 5rem;
     }
 }
+
+
