@@ -2,7 +2,7 @@
     <div v-if="props.contentName === 'semi'">
         <h2>반갑습니다.</h2>
             <hr class="star-primary">
-            <img src="../../public/assets/img/jpg/Valuto-Account-Management.jpg" class="modal-image img-centered">
+            <img src="" class="modal-image img-centered">
             <p></p>
 
         <ul class="list-inline item-details">

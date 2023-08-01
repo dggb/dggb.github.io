@@ -5694,7 +5694,7 @@ html::-webkit-scrollbar {
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .careerLogo{
         height: 15rem;
         width: 15rem;

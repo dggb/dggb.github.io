@@ -23,10 +23,10 @@
                               <i class="fa fa-plus fa-3x"></i>
                           </div>
                       </div>
-                      <img src="../../public/assets/img/png/semi.png" class="projects_img_style" alt="">
+                      <img src="../../public/assets/img/png/semi.png" class="projects_img_style" alt="" style="width: 100%;">
                   </a>
                   <div class="portfolio-caption">
-                      <h4 style="font-weight:bold">구인구직 사이트 - 오늘 뭐해?</h4>
+                      <h4 style="font-weight:bold">구인구직 사이트 오늘 뭐해?</h4>
                       <div style="margin-top: 1rem;">
                         <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/javascript.svg" style="filter: invert(96%) sepia(47%) saturate(4151%) hue-rotate(338deg) brightness(100%) contrast(95%)">
                         &nbsp;
@@ -38,13 +38,13 @@
               </div>
 
               <div class="col-md-4 col-sm-6 portfolio-item">
-                  <a class="portfolio-link" data-toggle="modal" @click="modal('cardGame')">
+                  <a class="portfolio-link" href="https://dggb.github.io/cardgame/" target='_blank'>
                       <div class="portfolio-hover">
                           <div class="portfolio-hover-content">
                               <i class="fa fa-plus fa-3x"></i>
                           </div>
                       </div>
-                      <img src="../../public/assets/img/jpg/Perpetual-Crusades.jpg" class="projects_img_style" alt="">
+                      <img src="../../public/assets/img/png/cardGame.png" class="projects_img_style" alt="">
                   </a>
                   <div class="portfolio-caption">
                       <h4 style="font-weight:bold">카드 게임</h4>
@@ -53,28 +53,30 @@
                         &nbsp;
                         <img height="32" width="32" src="../../public/assets/img/png/vue.png">
                         &nbsp;
-                        <img height="32" width="32" src="../../public/assets/img/png/github.png">
+                        <a href="https://github.com/dggb/cardgame" target='_blank'><img height="32" width="32" src="../../public/assets/img/png/github.png"></a>
                         </div>
                   </div>
               </div>
 
               <div class="col-md-4 col-sm-6 portfolio-item">
-                  <a class="portfolio-link" data-toggle="modal">
+                  <a class="portfolio-link" href="https://dggb.github.io/wordlegame/#/" target='_blank'>
                       <div class="portfolio-hover">
                           <div class="portfolio-hover-content">
                               <i class="fa fa-plus fa-3x"></i>
                           </div>
                       </div>
-                      <img src="../../public/assets/img/jpg/Valuto-Account-Management.jpg" class="projects_img_style" alt="">
+                      <img src="../../public/assets/img/png/wordlegame.png" class="projects_img_style" alt="">
                   </a>
                   <div class="portfolio-caption">
-                      <h4 style="font-weight:bold">코드 테스트</h4>
+                      <h4 style="font-weight:bold">워들 게임</h4>
                       <div style="margin-top: 1rem;">
                         <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/javascript.svg" style="filter: invert(96%) sepia(47%) saturate(4151%) hue-rotate(338deg) brightness(100%) contrast(95%)">
                         &nbsp;
-                        <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/bootstrap.svg" style="filter: invert(24%) sepia(14%) saturate(2270%) hue-rotate(222deg) brightness(102%) contrast(90%)">
+                        <img height="32" width="32" src="../../public/assets/img/png/vuetify.png">
                         &nbsp;
-                        <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/github.svg">
+                        <img height="32" width="32" src="../../public/assets/img/png/vue.png">
+                        &nbsp;
+                        <a href="https://github.com/dggb/wordlegame" target='_blank'><img height="32" width="32" src="../../public/assets/img/png/github.png"></a>
                       </div>
                   </div>
               </div>
@@ -98,7 +100,9 @@ import {ref} from 'vue';
 const refModal = ref(null);
 
 const modal = (item) => {
-    refModal.value.open(item)
+
+  alert('아직 만드는 중입니다.')
+    // refModal.value.open(item)
 }
 
 </script>
