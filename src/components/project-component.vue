@@ -1,6 +1,6 @@
 <template>
   <div style="background-color:#f5f5f5">
-    <section id="projects" style="padding-top:45px">
+    <section id="projects" style="padding-top:40px">
       <div class="user-details">
         <div class="section_table_style">
           <div class="section_title_style" style="color:#000000;">PROJECTS</div>

@@ -1,5 +1,5 @@
 <template>
-   <div id="about" style="padding: 30px;"></div>
+   <div id="about" style="padding: 20px;"></div>
    <div style="background-color:white">
     <section >
         <div class="user-details">
