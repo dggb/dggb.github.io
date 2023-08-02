@@ -20,8 +20,6 @@
 
     <!-- footer -->
     <footer-component />
-
-    <!--  -->
   </div>
 </template>
 
