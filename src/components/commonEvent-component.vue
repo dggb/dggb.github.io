@@ -16,24 +16,23 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand page-scroll" href="#" style="font-weight:bold" data-scroll :class="{ 'titleColor': showHamburger }">PKH Portfolio</a>
+              <a class="navbar-brand page-scroll hover" href="#" style="font-weight:bold" data-scroll :class="{ 'titleColor': showHamburger }">PKH Portfolio</a>
           </div>
 
           <div class="collapse navbar-collapse" :class="{ 'in': isToggle }">
               <ul class="nav navbar-nav navbar-right">                    
                   <li>
-                      <a class="page-scroll" href="#about" data-scroll @click="closeToggle">About</a>
+                      <a class="page-scroll hover" href="#about" data-scroll @click="closeToggle">About</a>
                   </li>
                   <li>
-                      <a class="page-scroll" href="#projects" data-scroll @click="closeToggle">Projects</a>
+                      <a class="page-scroll hover" href="#projects" data-scroll @click="closeToggle">Projects</a>
                   </li>
                   <li>
-                      <a class="page-scroll" href="#career" data-scroll @click="closeToggle">Career</a>
+                      <a class="page-scroll hover" href="#career" data-scroll @click="closeToggle">Career</a>
                   </li>
                   <li>
-                      <a class="page-scroll" href="#skill" data-scroll @click="closeToggle">Skills</a>
+                      <a class="page-scroll hover" href="#skill" data-scroll @click="closeToggle">Skills</a>
                   </li>
-                  
               </ul>
           </div>
       </div>
