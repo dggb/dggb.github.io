@@ -190,12 +190,12 @@
                     <p>(주) 스코어관리,부킹 등 골퍼를 위한 다양한 서비스와 <b>골프장 IT솔루션</b> 제공 하는 회사 입니다. </p><br>
                     
                     ▎담당 업무 <br>
-                     - 스마트스코어 앱 서비스 개발(하이브리드 앱), 모바일웹, PC웹 개발 및 운영<br>
+                    - 스마트스코어 앱 서비스 개발(하이브리드 앱), 모바일웹, PC웹 개발 및 운영<br><br>
                     ▎프로젝트<br>
 
                     <ol>
                         <li>
-                            <strong>스마트스코어 플랫폼 ERP 웹 앱 서비스 개발</strong>
+                            <strong>스마트스코어 플랫폼 ERP 웹 앱 서비스 개발 - Vue.js </strong>
                             <ul>
                                 <li>소개 : 회원관리, 예약관리, 골프단가, 경기배치, 단체관리, 정산관리, 판매관리, 내장등록 등등 골프장에서 운영하는데 필요한 전산 총괄 프로그램 개발</li>
                                 <li>기간 : 2023.04 ~ 2023.08</li>
@@ -212,6 +212,86 @@
                                     <ul>
                                         <li>기존 공통으로 개발 되어 있는 컴포넌트의 문제점을 찾고 신규로 개발 완료</li>
                                         <li>Pos 개발 작업 완료</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ol>        
+                  </div>
+                  <hr style="border-top:1px solid #ccc">
+              </div>
+            </div>
+          </div>
+
+          <div class="careerBody">
+            <div class="careerDis">
+              <div class="careerLeft">
+                <div class="careerLogo">
+                    <img src="../../public/assets/img/png/alchera.png" style="display: block;flex-shrink: 0;width: 90%;" />
+                </div>
+              </div>
+
+              <div class="careerText">
+                  <div class="careerTitle">(주) 알체라</div>
+                  <div>재직 기간 : 2023.10 ~ 재직 중</div>
+                  <div>직급 및 직책 : Researcher / Technical Development팀 FrontEnd 플랫폼 개발자</div>
+                  <br>
+                  <div>
+                    <p>(주) 알체라는 얼굴, 영상인식 Visual AI 분야의 국내 1위 업체로 <b> 인공지능으로 고객의 삶과 사회를 혁신하는 AI를 </b> 제공 하는 회사 입니다. </p><br>
+                    
+                    ▎담당 업무 <br>
+                     - 자사 솔루션 (데이터 라벨링 플랫폼) 개발 <br>
+                     - 자사 솔루션 (IT & AI 전문 외주 개발 플랫폼) 개발 <br><br>
+                    ▎프로젝트<br>
+
+                    <ol>
+                        <li>
+                            <strong>데이터 라벨링 플랫폼 (TreeD Studio) 개발 - Vue.js </strong>
+                            <ul>
+                                <li>소개 : 자사 솔루션 데이터 가공 프로젝트 운영에 필요한 서비스 개발</li>
+                                <li>기간 : 2023.12 ~ 2024.03</li>
+                                <li>팀 구성 및 역할 : 기획, 설계, 개발 중 프론트엔드 개발 담당</li>
+                                <li>개발 사항
+                                    <ul>
+                                        <li>
+                                            [정산 자동화] 개발
+                                            <ul>
+                                                <li>회원가입 및 계정 찾기 개발</li>
+                                                <li>단가 설정 페이지 개발</li>
+                                                <li>관리자 페이지 개발</li>
+                                                <li>기본, 약식 계약서 설정 및 계약서 서명 개발</li>
+                                                <li>마이페이지 개발</li>
+                                            </ul>
+                                        </li>
+                                        <li>기존 레거시 코드 제거 및 신규 단일 기능 개발</li>
+                                        <li>공통 Api, Router, Component 구조 리펙토링 작업</li>
+                                    </ul>
+                                </li>
+
+                                <li>성과
+                                    <ul>
+                                        <li>정산 자동화 및 단일 기능 신규로 개발 완료</li>
+                                        <li>기존 공통으로 개발 되어 있는 Api, Router, Component 구조에 대한 문제점을 찾고 신규로 개발 완료</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <br>
+                        <li>
+                            <strong>IT & AI 전문 외주 개발 플랫폼 (AI 히어로즈) 개발 - React </strong>
+                            <ul>
+                                <li>소개 : IT & AI 전문 외주 개발 플랫폼 개발</li>
+                                <li>기간 : 2023.12 ~ 2024.03</li>
+                                <li>팀 구성 및 역할 : 기획, 설계, 개발 중 프론트엔드 개발 담당</li>
+                                <li>개발 사항
+                                    <ul>
+                                        <li>기존 레거시 코드 제거 및 신규 단일 기능 개발</li>
+                                    </ul>
+                                </li>
+
+                                <li>성과
+                                    <ul>
+                                        <li>기존 개발 되어 있는 레거시 코드 제거 및 신규 단일 기능 개발</li>
                                     </ul>
                                 </li>
                             </ul>
