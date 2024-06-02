@@ -233,7 +233,7 @@
 
               <div class="careerText">
                   <div class="careerTitle">(주) 알체라</div>
-                  <div>재직 기간 : 2023.10 ~ 재직 중</div>
+                  <div>재직 기간 : 2023.10 ~ 2024.04</div>
                   <div>직급 및 직책 : Researcher / Technical Development팀 FrontEnd 플랫폼 개발자</div>
                   <br>
                   <div>
