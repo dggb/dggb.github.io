@@ -37,17 +37,14 @@
                 <img class="skillImg" src="../../public/assets/img/png/mobile.png">
             </div>
 
+
             <div class="skillSubBody">
-                <div class="skillTitle">Cloud Platform</div>
-                <img class="skillImg" src="../../public/assets/img/png/Cloud.png">
-            </div>
-            <div class="skillSubBody">
-                <div class="skillTitle">Version Control</div>
+                <div class="skillTitle">Infrastructure & DevOps</div>
                 <img class="skillImg" src="../../public/assets/img/png/Version.png">
             </div>
 
             <div class="skillSubBody">
-                <div class="skillTitle">Communication</div>
+                <div class="skillTitle">Collaboration</div>
                 <img class="skillImg" src="../../public/assets/img/png/Communication.png">
             </div>
         </div>

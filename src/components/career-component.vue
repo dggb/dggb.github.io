@@ -15,6 +15,165 @@
 
           <div class="careerBody">
             <div class="careerDis">
+                <div class="careerLeft">
+                    <div class="careerLogo">
+                        <img src="../../public/assets/img/png/greenit.png" style="display: block;flex-shrink: 0;width: 90%;" />
+                    </div>
+                </div>
+
+                <div class="careerText">
+                    <div class="careerTitle">(주) 그린아이티코리아</div>
+                    <div>재직 기간 : 2024.12 ~ 2026.05 (1년 6개월)</div>
+                    <div>직급 및 직책 : 대리 / 풀스택 개발자</div>
+                    <br>
+
+                    <div>
+                    <p>
+                        (주)그린아이티코리아는 스마트 통합 관제 및 주차관제 솔루션을 개발하는 회사로
+                        <b>실시간 관제 시스템, AI 기반 주차 관제, 3D 시각화 플랫폼 및 장비 연동 솔루션</b>
+                        을 개발 및 운영하는 회사입니다.
+                    </p>
+                    <br>
+
+                    ▎담당 업무 <br>
+                    - 통합 관제 및 주차관제 플랫폼 프론트엔드/백엔드 개발<br>
+                    - 실시간 장비 연동 및 관제 기능 개발<br>
+                    - Three.js 기반 3D 시각화 플랫폼 개발<br>
+                    - 서비스 배포 및 운영 환경 구축<br>
+                    - PostgreSQL 기반 데이터 설계 및 관리<br>
+                    - 현장 운영 및 유지보수 대응<br><br>
+
+                    ▎프로젝트<br>
+
+                    <ol>
+
+                        <li>
+                        <strong>옵저버(Observer Pro) 통합 관제 플랫폼 개발 - React / TypeScript / Three.js / Node.js</strong>
+                        <ul>
+                            <li>소개 : 실시간 통합 관제 및 3D 기반 디지털 트윈 플랫폼 개발</li>
+                            <li>기간 : 2024.12 ~ 2026.05</li>
+                            <li>팀 구성 및 역할 : 기획, 아키텍처 설계, UI/UX 설계 및 핵심 기능 개발 담당</li>
+
+                            <li>개발 사항
+                            <ul>
+                                <li>Three.js 기반 3D 공간 시각화 플랫폼 개발</li>
+                                <li>GLB 모델 업로드 및 장비 매핑 기능 개발</li>
+                                <li>3D ↔ 2D 화면 전환 및 모델 연결 기능 구현</li>
+                                <li>CCTV Overlay 및 카메라 포커싱 기능 개발</li>
+                                <li>실시간 장비 상태 및 이벤트 화면 반영 기능 개발</li>
+                                <li>전역 상태 관리 구조 설계 및 UI 최적화</li>
+                                <li>Docker/Nginx 기반 운영 환경 구성 및 배포 지원</li>
+                            </ul>
+                            </li>
+
+                            <li>성과
+                            <ul>
+                                <li>3D 기반 디지털 트윈 관제 플랫폼 구축 완료</li>
+                                <li>실시간 장비 연동 및 시각화 기능 안정화</li>
+                                <li>전시회 시연 환경 구축 및 운영 지원</li>
+                            </ul>
+                            </li>
+                        </ul>
+                        </li>
+
+                        <br>
+
+                        <li>
+                        <strong>그린파킹(Green Parking) 주차관제 시스템 개발 - React / TypeScript</strong>
+                        <ul>
+                            <li>소개 : 실시간 차량 입출차 및 요금 정산 기반 스마트 주차관제 시스템 개발</li>
+                            <li>기간 : 2025.04 ~ 2026.05</li>
+                            <li>팀 구성 및 역할 : 프론트엔드 개발 및 실시간 기능 개발 담당</li>
+
+                            <li>개발 사항
+                            <ul>
+                                <li>실시간 차량 관제 및 요금 정산 기능 개발</li>
+                                <li>차량 세션 기반 상태 관리 구조 설계</li>
+                                <li>차단기 제어 및 장비 연동 기능 구현</li>
+                                <li>주차 요금 / 할인 / 정기권 관리 기능 개발</li>
+                                <li>CCTV 스트리밍 및 차량 스냅샷 기능 개발</li>
+                                <li>실시간 알림 및 이벤트 처리 기능 구현</li>
+                                <li>운영 환경 개선 및 현장 유지보수 대응</li>
+                            </ul>
+                            </li>
+
+                            <li>성과
+                            <ul>
+                                <li>실시간 주차관제 및 정산 시스템 구축 완료</li>
+                                <li>전시회 및 현장 운영 환경 안정화</li>
+                                <li>다수 현장 패치 및 유지보수 대응 수행</li>
+                            </ul>
+                            </li>
+                        </ul>
+                        </li>
+
+                        <br>
+
+                        <li>
+                        <strong>광덕사 공영주차장 AI 주차관제 시스템 개발 - React / TypeScript / Node.js</strong>
+                        <ul>
+                            <li>소개 : AIBOX 및 VCOUNT 기반 AI 스마트 주차관제 시스템 개발</li>
+                            <li>기간 : 2025.06 ~ 2026.01</li>
+                            <li>팀 구성 및 역할 : 프론트엔드/백엔드 및 장비 연동 개발 담당</li>
+
+                            <li>개발 사항
+                            <ul>
+                                <li>AI 기반 주차면 감지 시스템 개발</li>
+                                <li>입출차 센서 및 전광판 장비 연동 기능 개발</li>
+                                <li>실시간 주차 잔여대수 계산 및 상태 반영 기능 구현</li>
+                                <li>장비 상태 모니터링 및 이벤트 처리 기능 개발</li>
+                                <li>로그 백업 및 스케줄링 기능 개발</li>
+                                <li>운영 환경 설치 및 현장 패치 대응</li>
+                            </ul>
+                            </li>
+
+                            <li>성과
+                            <ul>
+                                <li>AI 기반 스마트 주차관제 시스템 구축 완료</li>
+                                <li>실제 운영 환경 장비 연동 및 현장 구축 완료</li>
+                                <li>전시회 시연 및 운영 환경 안정화 수행</li>
+                            </ul>
+                            </li>
+                        </ul>
+                        </li>
+
+                        <br>
+
+                        <li>
+                        <strong>공공데이터 기반 Ecount ERP 연동 시스템 개발 - React / TypeScript / Node.js</strong>
+                        <ul>
+                            <li>소개 : 공공데이터 납품요구 조회 및 ERP 자동 연동 시스템 개발</li>
+                            <li>기간 : 2025.06 ~ 2025.10</li>
+                            <li>팀 구성 및 역할 : 프론트엔드/백엔드 개발 담당</li>
+
+                            <li>개발 사항
+                            <ul>
+                                <li>공공데이터 API 기반 납품요구 조회 기능 개발</li>
+                                <li>Ecount ERP API 연동 및 주문서 자동 생성 기능 개발</li>
+                                <li>Redis 기반 세션 인증 처리 구조 구현</li>
+                                <li>SSE(Server-Sent Events) 기반 진행률 처리 기능 구현</li>
+                                <li>Docker 기반 컨테이너 운영 환경 구축</li>
+                            </ul>
+                            </li>
+
+                            <li>성과
+                            <ul>
+                                <li>공공데이터 기반 ERP 자동화 시스템 구축 완료</li>
+                                <li>기존 수작업 업무 자동화 및 운영 효율 개선</li>
+                            </ul>
+                            </li>
+                        </ul>
+                        </li>
+
+                    </ol>
+                    </div>
+
+                    <hr style="border-top:1px solid #ccc">
+                </div>
+            </div>
+            </div>
+          <div class="careerBody">
+            <div class="careerDis">
               <div class="careerLeft">
                 <div style="" class="careerLogo">
                     <img src="../../public/assets/img/png/simplebit.png" style="display: block;flex-shrink: 0;width: 90%;" />

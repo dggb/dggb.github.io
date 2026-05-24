@@ -5776,7 +5776,7 @@ html::-webkit-scrollbar {
 
 @media(min-width:300px) {
     .skillDiv{
-        height:174rem;
+        height:190rem;
     }
 
     .skillBody{
@@ -5796,7 +5796,7 @@ html::-webkit-scrollbar {
 
 @media(min-width:992px) {
     .skillDiv{
-        height:70rem;
+        height:77rem;
     }
 
     .skillBody{
